@@ -5,7 +5,7 @@ import Footer from '../components/Footer.jsx'
 function AboutPage() {
 
   return (
-   <div className="homepage">
+   <div className="aboutpage">
     <About />
     <Featured />
     <Footer />

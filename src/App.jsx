@@ -8,6 +8,7 @@ import SignUpPage from './pages/SignUpPage.jsx'
 // import Home from './components/Home'
 // import Navbar from './components/Navbar'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import AdminPage from './pages/AdminPage.jsx'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
             <Route path='/store' element={<StorePage />} />
             <Route path='/login' element={<LoginPage />} />
             <Route path='/signup' element={<SignUpPage />} />
+            <Route path='/admin' element={<AdminPage />} />
           </Route>
         </Routes>
       </Router>
