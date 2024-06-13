@@ -1,0 +1,37 @@
+{
+    "name":"Marigold Kitchen",
+    "short_name":"Marigold",
+    "start_url":"/",
+    "display":"standalone",
+    "background_color":"#000",
+    "theme_color":"black",
+    "scope": ".",
+    "description":"This is Marigold's Website",
+    "icons":[
+    {
+    "src":"../assets/logo (2).png",                     
+    "sizes":"250x250",
+    "type":"image/png"
+    },
+    {
+    "src":"../assets/logo (1).png",
+    "sizes":"500x500",
+    "type":"image/png"
+    }
+  ],
+  "screenshots": [    
+   {
+     "src": "../assets/mobilesc.png",
+      "sizes": "528x799",
+      "type": "image/png",
+      "label": "Application"
+    },
+   {
+     "src": "../assets/desktopsc.png",
+      "sizes": "300x225",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Application"
+    }
+ ]
+}
