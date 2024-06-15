@@ -998,6 +998,79 @@ span:hover {
 }
 
 
+/* Admin Page  */
+
+.header {
+  color: #FFF;
+  padding: 10px;
+  border-top: 20px;
+  background-color: #E78E2A;
+}
+
+.admin_page {
+  padding: 0px 0 0 0;
+  min-height: 92vh;
+  display: flex;
+}
+
+.Navigation {
+  background-color: #e0e0e0;
+}
+
+.options {
+  margin: 50px 0 0 0;
+}
+
+.options h4 {
+  color: #fff;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 20px;
+  padding: 5px 40px 5px 10px;
+  background-color: #E78E2A;
+  border-radius: 8px;
+}
+
+.main_panel {
+  padding: 20px 30px;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px 50px 8px 8px;
+  font-size: 18px;
+}
+
+th {
+  background-color: #E78E2A;
+}
+
+td {
+  background-color: #e09a49;
+}
+
+
+
+
+
+
+
+
 
 
 /* RESPONSIVENESS  */
