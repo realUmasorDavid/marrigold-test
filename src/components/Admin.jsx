@@ -1,6 +1,14 @@
+/* eslint-disable no-unused-vars */
+import { useState } from 'react'
 import '../index.css'
+import order_data from "../orders.json"
 
 export default function Admin() {
+  const [contacts, setContacts] = useState(order_data);
+
+
+
+
   return (
     <>
       <div className="header">
@@ -18,6 +26,7 @@ export default function Admin() {
         <div className="main_panel">
           <h1>Orders</h1>
           <div className="app-container">
+
             <table>
               <thead>
                 <tr>
@@ -29,15 +38,21 @@ export default function Admin() {
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <td>John Doe</td>
-                  <td>Block U</td>
-                  <td>08123456789</td>
-                  <td>3 Jollof Rice, 1 Egg, 1 Pepsi</td>
-                  <td>1 January 1970</td>
-                </tr>
+                {contacts.map((contact) => (
+                  // eslint-disable-next-line react/jsx-key
+                  <tr>
+                    <td>{contact.name}</td>
+                    <td>{contact.location}</td>
+                    <td>{contact.number}</td>
+                    <td>{contact.order}</td>
+                    <td>{contact.date}</td>
+                  </tr>
+                ))}
+
               </tbody>
             </table>
+
+
           </div>
         </div>
       </div>

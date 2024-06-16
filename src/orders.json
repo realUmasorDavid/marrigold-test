@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"John Doe",
+        "location":"Block U",
+        "number":"08123456789",
+        "order":"3 Jollof Rice, 1 Beef, 1 Pepsi",
+        "date":"1st January 1970"
+    },
+    {
+        "id":2,
+        "name":"Jane Doe",
+        "location":"Block C",
+        "number":"08123456789",
+        "order":"3 Jollof Rice, 1 Egg, 1 Salad, 1 Pepsi",
+        "date":"1st January 1970"
+    },
+    {
+        "id":3,
+        "name":"Mr. Doe",
+        "location":"Block L",
+        "number":"08123456789",
+        "order":"3 Jollof Rice, 2 Plantain, 1 Egg, 1 Salad, 1 Pepsi",
+        "date":"1st January 1970"
+    }
+]
