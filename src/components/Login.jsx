@@ -29,7 +29,7 @@ export default function Login() {
         <div className="login form">
           <div className="flex">
             <Link to='/home'><img src={logo} alt="" /></Link>
-            <header className='signuphead'>Get Started with Marigold Kitchen</header>
+            <header className='signuphead'>Get Started with Marrigold Kitchen</header>
           </div>
           <form>
             <input id='userid' type="text" required placeholder="Enter your email" value={username} onChange={(e) => setUsername(e.target.value)} />

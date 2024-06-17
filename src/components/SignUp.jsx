@@ -9,7 +9,7 @@ export default function Login() {
         <div className="registration form">
           <div className="flex">
           <Link to='/home'><img src={logo} alt="" /></Link>
-            <header className='signuphead'>Get Started with Marigold Kitchen</header>
+            <header className='signuphead'>Get Started with Marrigold Kitchen</header>
           </div>
           <form>
             <input type="text" name='username' required placeholder="Enter your name" />

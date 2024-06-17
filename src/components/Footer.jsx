@@ -10,7 +10,7 @@ export default function Footer() {
                     <a href="https://www.tiktok.com/@Marigold.restaura" target="_blank"><img src={tiktok} alt="" /></a>
                 </div>
                 <div className="right">
-                    ©️ 2024 Marigold Kitchen. All Rights Reserved.
+                    ©️ 2024 Marrigold Kitchen. All Rights Reserved.
                 </div>
             </div>
         </>

@@ -61,7 +61,7 @@ export default function StoreNavbar() {
                         <Link to="/home"><img src={logo} alt="logo" /></Link>
                     </div>
                     <div className="center">
-                        <input type="search" name="search" id="search" placeholder='Search Marigold' />
+                        <input type="search" name="search" id="search" placeholder='Search Marrigold' />
                     </div>
                     <div className="right">
                         <button name='cart' onClick={openCart}><img src={cart} id='cart_button' alt="cart" /></button>

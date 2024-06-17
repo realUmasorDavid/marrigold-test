@@ -15,7 +15,7 @@ export default function Home() {
           <h6>- Order from ??? Today -</h6>
           <h1>Discover our <br />culinary dishes and <br />delicious, exciting flavours.</h1>
           <Link to="/store"><button className='normal'>Place an order now</button></Link>
-          <Link to="/about"><button className='white'>Explore Marigold</button></Link>
+          <Link to="/about"><button className='white'>Explore Marrigold</button></Link>
         </div>
         <div className="right">
           <img src={side} alt="food" />
@@ -43,19 +43,19 @@ export default function Home() {
         <p>Customers rave about our dishes</p>
         <div className="flex">
           <div className="review">
-            <h1>I come to Marigold <br />because of the <br />excellent dishes.</h1>
+            <h1>I come to Marrigold <br />because of the <br />excellent dishes.</h1>
             <img src={star} alt="" />
             <h4>Fashina Hussein</h4>
             <p>Student, Lead City.</p>
           </div>
           <div className="review">
-            <h1>I recommend <br />Marigold to all <br />students.</h1>
+            <h1>I recommend <br />Marrigold to all <br />students.</h1>
             <img src={star} alt="" />
             <h4>Amure Isaac</h4>
             <p>Student, Lead City.</p>
           </div>
           <div className="review">
-            <h1>Marigold has <br />redefined my dining <br />experience.</h1>
+            <h1>Marrigold has <br />redefined my dining <br />experience.</h1>
             <img src={star} alt="" />
             <h4>Fashina Taiwo</h4>
             <p>Student, Lead City.</p>

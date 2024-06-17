@@ -12,7 +12,7 @@ export default function Admin() {
   return (
     <>
       <div className="header">
-        <h1>Marigold Admin</h1>
+        <h1>Marrigold Admin</h1>
       </div>
       <div className="admin_page">
         <div className="Navigation">

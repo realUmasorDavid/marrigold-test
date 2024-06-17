@@ -10,7 +10,7 @@ export default function Home() {
                 <Navbar />
                 <div className="about-flex">
                     <div className="about-container">
-                        <h1>Marigold <br />Kitchen</h1>
+                        <h1>Marrigold <br />Kitchen</h1>
                         <h2>Discover the secret <br />behind our signature dishes.</h2>
                         <hr />
                         <Link to='/home'><button className='normal'>Read more</button></Link>
