@@ -1,4 +1,4 @@
-var staticCacheName = "marigold";
+var staticCacheName = "marrigold";
 
 self.addEventListener("install", function (e) {
   e.waitUntil(

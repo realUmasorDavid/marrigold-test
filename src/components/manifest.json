@@ -1,12 +1,12 @@
 {
-    "name":"Marigold Kitchen",
-    "short_name":"Marigold",
+    "name":"Marrigold Kitchen",
+    "short_name":"Marrigold",
     "start_url":"/",
     "display":"standalone",
     "background_color":"#000",
     "theme_color":"black",
     "scope": ".",
-    "description":"This is Marigold's Website",
+    "description":"This is Marrigold's Website",
     "icons":[
     {
     "src":"../assets/logo (2).png",                     

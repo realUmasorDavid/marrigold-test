@@ -118,15 +118,19 @@ button.white:hover {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  padding: 20px 30px;
+  padding: 50px 30px;
   height: 30px;
   justify-content: space-between;
 }
 
+.homepage .navbar {
+  padding: 40px 30px;
+}
+
 .navbar img {
-  margin-left: -20px;
-  width: 70px;
-  height: 70px;
+  margin-left: 0px;
+  width: 180px;
+  height: 180px;
 }
 
 .navbar h1 {
@@ -192,7 +196,7 @@ li:hover::after {
 .home {
   display: flex;
   align-items: center;
-  padding: 75px 130px 110px 130px;
+  padding: 95px 130px 110px 220px;
 }
 
 .home button.white {
@@ -1375,7 +1379,32 @@ td {
     opacity: 0;
   }
 
-  .navbar ul {
+  .homepage .navbar {
+    padding: 30px 30px;
+  }
+
+  .navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 30px 30px;
+    height: 30px;
+    justify-content: space-between;
+  }
+
+  .navbar img {
+    margin-left: -20px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .aboutpage .navbar img {
+    margin-left: -100px;
+    width: 150px;
+    height: 150px;
+}
+
+.navbar ul {
     display: none;
   }
 

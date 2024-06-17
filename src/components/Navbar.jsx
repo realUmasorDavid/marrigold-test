@@ -1,6 +1,6 @@
 import '../index.css'
 import { Link } from 'react-router-dom'
-import logo from '../assets/logo (2).png'
+import logo from '../assets/newlogoblack.png'
 
 function move() {
   let mobile_nav = document.getElementById("mobile-nav")

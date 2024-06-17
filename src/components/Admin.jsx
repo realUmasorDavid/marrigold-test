@@ -16,12 +16,12 @@ export default function Admin() {
       </div>
       <div className="admin_page">
         <div className="Navigation">
-          <div className="options">
+          {/* <div className="options">
             <h4>Dashboard</h4>
             <h4>Products</h4>
             <h4>Orders</h4>
             <h4>Admins</h4>
-          </div>
+          </div> */}
         </div>
         <div className="main_panel">
           <h1>Orders</h1>
