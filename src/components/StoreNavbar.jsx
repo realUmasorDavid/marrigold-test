@@ -1,8 +1,9 @@
 import '../index.css'
-import logo from '../assets/logo (2).png'
+// import logo from '../assets/logo (2).png'
 import cart from '../assets/icon.png'
 import Food from '../assets/feat5.jpg'
 import profile from '../assets/user.png'
+import og_logo from '../assets/marrigold_kitchen_black.png'
 import { Link } from 'react-router-dom'
 
 function openCart() {
@@ -58,7 +59,7 @@ export default function StoreNavbar() {
             <div className="storeHead">
                 <div className="head">
                     <div className="left logo">
-                        <Link to="/home"><img src={logo} alt="logo" /></Link>
+                        <Link to="/home"><img src={og_logo} alt="logo" /></Link>
                     </div>
                     <div className="center">
                         <input type="search" name="search" id="search" placeholder='Search Marrigold' />
