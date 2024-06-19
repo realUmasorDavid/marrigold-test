@@ -1166,6 +1166,16 @@ td {
     opacity: 0;
   }
 
+  .navbar img {
+    margin-left: -20px;
+    width: 120px;
+    height: 120px;
+  }
+
+  .homepage .navbar {
+    padding: 35px 30px;
+  }
+
   .navbar ul {
     display: none;
   }
