@@ -1173,6 +1173,15 @@ td {
     height: 120px;
   }
 
+  .about .navbar {
+    padding: 30px 30px 10px 30px;
+  }
+
+  .about .navbar img {
+    width: 120px;
+    height: 120px;
+  }
+
   .homepage .navbar {
     padding: 22px 30px;
   }
