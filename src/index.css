@@ -1167,13 +1167,14 @@ td {
   }
 
   .navbar img {
+    margin-top: 7px;
     margin-left: -20px;
     width: 120px;
     height: 120px;
   }
 
   .homepage .navbar {
-    padding: 35px 30px;
+    padding: 22px 30px;
   }
 
   .navbar ul {
