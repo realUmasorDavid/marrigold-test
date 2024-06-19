@@ -510,7 +510,7 @@ li:hover::after {
 }
 
 .storeHead .head .left img {
-  /* margin: 0 -30px; */
+  margin: 0 -40px;
   width: 200px;
   height: 200px;
 }
