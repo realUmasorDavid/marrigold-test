@@ -17,10 +17,8 @@ Marrigold is a fine dining restaurant that offers a unique culinary experience. 
 
 - **Home Page:** Welcome message and brief introduction to Marrigold.
 - **Menu:** Detailed menu with descriptions and prices.
-- **Reservations:** Online reservation form to book tables.
 - **About Us:** Information about the restaurant, including history and chef bios.
-- **Events:** List of upcoming events and special offers.
-- **Contact:** Contact form and location map.
+- **Orders:** Order and pay for food online.
 
 ## Technologies Used
 
